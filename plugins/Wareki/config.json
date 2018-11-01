@@ -1,0 +1,17 @@
+{
+    "label"       : "Wareki",
+    "id"          : "wareki",
+    "component"   : "Wareki",
+    "version"     : "1.0",
+    "author"      : "Hideki Abe",
+    "author_link" : "https://www.anothersky.pw/",
+    "description" : "Provides the modifier to convert the Christian calendar into Japanese calendar.",
+    "tags": {
+        "modifier": {
+            "wareki" : {
+                "component" : "Wareki",
+                "method" : "modifier_convert_wareki"
+            }
+        }
+    }
+}
