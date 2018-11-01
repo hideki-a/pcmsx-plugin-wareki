@@ -1,0 +1,1 @@
+# pcmsx-plugin-wareki
