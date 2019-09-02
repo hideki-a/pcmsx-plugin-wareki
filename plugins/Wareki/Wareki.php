@@ -47,7 +47,7 @@ class Wareki extends PTPlugin {
                 // 和暦の出力
                 if ( $args_matches[1] === 'ggg' ) {
                     // “元年”表記対応
-                    if ( $wareki_year < 10 ) {
+                    if ( $wareki_year === 10 ) {
                         $wareki_year = '元';
                     }
                     return $key . $wareki_year . $args_matches[4] . $month_day_time;
